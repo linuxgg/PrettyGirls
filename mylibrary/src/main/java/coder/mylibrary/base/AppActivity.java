@@ -4,9 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 
 
-/**
- * Created by renlei on 2016/5/23.
- */
+
 public abstract class AppActivity extends BaseActivity {
 
     //获取第一个fragment

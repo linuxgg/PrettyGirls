@@ -3,9 +3,7 @@ package com.liangxingyishu.data.source;
 import com.liangxingyishu.data.source.local.LocalGirlsDataSource;
 import com.liangxingyishu.data.source.remote.RemoteGirlsDataSource;
 
-/**
- * Created by oracleen on 2016/6/29.
- */
+
 public class GirlsResponsitory implements GirlsDataSource {
 
     private LocalGirlsDataSource mLocalGirlsDataSource;

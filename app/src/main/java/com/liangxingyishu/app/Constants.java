@@ -3,7 +3,6 @@ package com.liangxingyishu.app;
 import com.liangxingyishu.util.FileUtil;
 
 /**
- * Created by oracleen on 2016/7/11.
  * 保存项目中用到的常量
  */
 public class Constants {

@@ -4,9 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.KeyEvent;
 import android.view.View;
 
-/**
- * Created by renlei on 2016/5/23.
- */
+
 public abstract class BaseActivity extends AppCompatActivity implements View.OnClickListener {
 
     //布局文件ID

@@ -8,16 +8,13 @@ import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.provider.MediaStore;
 
+import com.liangxingyishu.app.MyApplication;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 
-import com.liangxingyishu.app.MyApplication;
 
-/**
- * bitmap处理工具类
- * Created by oracleen on 2016/7/5.
- */
 public class BitmapUtil {
 
     public static android.graphics.Bitmap drawableToBitmap(Drawable drawable) {

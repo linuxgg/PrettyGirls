@@ -5,9 +5,7 @@ import com.liangxingyishu.data.bean.GirlsBean;
 import com.liangxingyishu.data.source.GirlsDataSource;
 import com.liangxingyishu.data.source.GirlsResponsitory;
 
-/**
- * Created by oracleen on 2016/6/28.
- */
+
 public class SplashPresenter implements SplashContract.Presenter {
 
     private SplashContract.View mView;

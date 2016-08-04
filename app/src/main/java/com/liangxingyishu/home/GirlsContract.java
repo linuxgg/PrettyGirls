@@ -1,14 +1,12 @@
 package com.liangxingyishu.home;
 
-import java.util.List;
-
 import com.liangxingyishu.BasePresenter;
 import com.liangxingyishu.BaseView;
 import com.liangxingyishu.data.bean.GirlsBean;
 
-/**
- * Created by oracleen on 2016/6/29.
- */
+import java.util.List;
+
+
 public interface GirlsContract {
 
     interface View extends BaseView {

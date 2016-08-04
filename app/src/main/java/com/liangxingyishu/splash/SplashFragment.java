@@ -18,9 +18,7 @@ import coder.mylibrary.base.BaseFragment;
 import coder.prettygirls.R;
 import com.liangxingyishu.home.HomeActivity;
 
-/**
- * Created by oracleen on 2016/6/28.
- */
+
 public class SplashFragment extends BaseFragment implements SplashContract.View {
 
     @BindView(R.id.splash)

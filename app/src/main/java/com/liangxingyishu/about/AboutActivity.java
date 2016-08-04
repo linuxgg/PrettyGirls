@@ -16,9 +16,7 @@ import coder.mylibrary.base.GestureActivity;
 import coder.prettygirls.R;
 import jp.wasabeef.glide.transformations.BlurTransformation;
 
-/**
- * Created by oracleen on 2016/7/4.
- */
+
 public class AboutActivity extends GestureActivity {
 
     @BindView(R.id.backdrop)

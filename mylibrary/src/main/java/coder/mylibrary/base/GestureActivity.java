@@ -7,10 +7,6 @@ import android.view.MotionEvent;
 import android.view.View;
 
 
-/**
- * 支持手势的activity
- * Created by oracleen on 2016/6/14.
- */
 public abstract class GestureActivity extends BaseActivity implements View.OnTouchListener, GestureDetector.OnGestureListener {
 
     private GestureDetector mGestureDetector;

@@ -8,9 +8,7 @@ import rx.Observer;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
-/**
- * Created by oracleen on 2016/6/29.
- */
+
 public class RemoteGirlsDataSource implements GirlsDataSource {
 
     @Override

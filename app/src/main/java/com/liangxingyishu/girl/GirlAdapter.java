@@ -7,16 +7,14 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.bumptech.glide.Glide;
+import com.liangxingyishu.data.bean.GirlsBean;
+import com.liangxingyishu.widget.PinchImageView;
 
 import java.util.ArrayList;
 
 import coder.prettygirls.R;
-import com.liangxingyishu.data.bean.GirlsBean;
-import com.liangxingyishu.widget.PinchImageView;
 
-/**
- * Created by oracleen on 2016/7/4.
- */
+
 public class GirlAdapter extends PagerAdapter {
 
     private Context mContext;

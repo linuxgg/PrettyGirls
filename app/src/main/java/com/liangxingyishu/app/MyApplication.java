@@ -2,17 +2,16 @@ package com.liangxingyishu.app;
 
 import android.app.Application;
 
-import java.util.concurrent.TimeUnit;
-
 import com.liangxingyishu.app.exception.LocalFileHandler;
 import com.liangxingyishu.util.LogUtil;
 import com.liangxingyishu.util.ToastUtil;
+
+import java.util.concurrent.TimeUnit;
+
 import okhttp3.OkHttpClient;
 
 
-/**
- * Created by oracleen on 2016/6/28.
- */
+
 public class MyApplication extends Application {
 
     private static MyApplication mApplication;

@@ -9,10 +9,7 @@ import android.widget.BaseAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * 适配器的基类
- * Created by renlei on 2016/5/23.
- */
+
 public abstract class SimpleBaseAdapter<T> extends BaseAdapter {
 
     protected Context c;

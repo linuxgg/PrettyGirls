@@ -5,9 +5,6 @@ import android.os.Parcelable;
 
 import java.util.List;
 
-/**
- * Created by oracleen on 2016/6/29.
- */
 public class GirlsBean {
 
     /**

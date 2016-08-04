@@ -6,9 +6,7 @@ import com.liangxingyishu.data.bean.GirlsBean;
 import com.liangxingyishu.data.source.GirlsDataSource;
 import com.liangxingyishu.data.source.GirlsResponsitory;
 
-/**
- * Created by oracleen on 2016/6/29.
- */
+
 public class GirlsPresenter implements GirlsContract.Presenter {
 
     public static final String TAG = "GirlsPresenter";

@@ -16,9 +16,7 @@ import coder.mylibrary.base.BaseFragment;
 import coder.prettygirls.R;
 import com.liangxingyishu.util.ColorUtil;
 
-/**
- * Created by oracleen on 2016/7/4.
- */
+
 public class GirlActivity extends AppActivity implements GirlFragment.OnGirlChange {
 
     @BindView(R.id.toolbar)
