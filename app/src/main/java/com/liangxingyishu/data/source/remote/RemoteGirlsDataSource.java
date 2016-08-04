@@ -4,6 +4,7 @@ import com.liangxingyishu.data.bean.GirlsBean;
 import com.liangxingyishu.data.source.GirlsDataSource;
 import com.liangxingyishu.http.GirlsRetrofit;
 import com.liangxingyishu.http.GirlsService;
+
 import rx.Observer;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
@@ -15,7 +16,7 @@ public class RemoteGirlsDataSource implements GirlsDataSource {
     public void getGirls(int page, int size, final LoadGirlsCallback callback) {
         GirlsRetrofit.getRetrofit()
                 .create(GirlsService.class)
-                .getGirls("福利", size, page)
+                .getGirls("福利", size, page + 5)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<GirlsBean>() {

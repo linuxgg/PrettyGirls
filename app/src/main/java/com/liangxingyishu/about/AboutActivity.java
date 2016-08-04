@@ -54,7 +54,7 @@ public class AboutActivity extends GestureActivity {
     }
 
     private void initView() {
-        mAboutToolbar.setTitle("关于我");
+        mAboutToolbar.setTitle(getString(R.string.about_me));
         setSupportActionBar(mAboutToolbar);
         mAboutToolbar.setNavigationIcon(R.drawable.ic_back);
         mAboutToolbar.setNavigationOnClickListener(new View.OnClickListener() {
