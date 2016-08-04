@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">BeGentle</string>
-    <string name="about_me">About Me</string>
-    <string name="action_save">save</string>
-    <string name="action_share">share</string>
-    <string name="girls">Girls</string>
+    <string name="app_name">美女集</string>
+    <string name="about_me">关于本app</string>
+    <string name="action_save">保存</string>
+    <string name="action_share">分享</string>
+    <string name="girls">美女</string>
     <string name="version_str">PrettyGirls\npleasecallmecoder</string>
     <string name="life_is_happy">本app是用来测试整合发布的，顺带给点儿福利，哇哈哈哈！！！！\n\n\n
     生活，就要对自己好一点。</string>

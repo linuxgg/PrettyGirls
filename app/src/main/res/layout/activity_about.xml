@@ -69,7 +69,6 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="8dp"
-                    android:autoLink="web"
                     android:text="@string/life_is_happy"/>
 
             </android.support.v7.widget.CardView>
