@@ -8,6 +8,7 @@ import com.liangxingyishu.util.ToastUtil;
 
 import java.util.concurrent.TimeUnit;
 
+import cn.waps.AppConnect;
 import okhttp3.OkHttpClient;
 
 
@@ -20,6 +21,9 @@ public class MyApplication extends Application {
     @Override
     public void onCreate() {
         super.onCreate();
+
+
+        AppConnect.getInstance("4024ad6b87df24d8d8479684418cf9e6", "waps", this);
 
         mApplication = this;
 
