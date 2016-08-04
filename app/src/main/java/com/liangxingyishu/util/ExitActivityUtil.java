@@ -4,7 +4,8 @@ import android.app.Activity;
 import android.view.KeyEvent;
 import android.widget.Toast;
 
-import coder.prettygirls.R;
+import com.liangxingyishu.R;
+
 
 /**
  * 双击退出

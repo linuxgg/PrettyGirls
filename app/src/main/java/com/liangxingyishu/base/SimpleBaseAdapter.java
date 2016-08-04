@@ -1,4 +1,4 @@
-package coder.mylibrary.base;
+package com.liangxingyishu.base;
 
 import android.content.Context;
 import android.view.LayoutInflater;

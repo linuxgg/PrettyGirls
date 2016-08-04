@@ -11,6 +11,8 @@ import android.view.ViewStub;
 import com.jude.easyrecyclerview.EasyRecyclerView;
 import com.jude.easyrecyclerview.adapter.BaseViewHolder;
 import com.jude.easyrecyclerview.adapter.RecyclerArrayAdapter;
+import com.liangxingyishu.R;
+import com.liangxingyishu.base.BaseFragment;
 import com.liangxingyishu.data.bean.GirlsBean;
 import com.liangxingyishu.girl.GirlActivity;
 import com.liangxingyishu.util.LogUtil;
@@ -21,8 +23,6 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
-import coder.mylibrary.base.BaseFragment;
-import coder.prettygirls.R;
 
 public class GirlsFragment extends BaseFragment implements GirlsContract.View, SwipeRefreshLayout.OnRefreshListener, RecyclerArrayAdapter.OnLoadMoreListener {
 

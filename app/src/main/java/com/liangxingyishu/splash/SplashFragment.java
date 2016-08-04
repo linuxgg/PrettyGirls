@@ -9,14 +9,14 @@ import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
+import com.liangxingyishu.R;
+import com.liangxingyishu.base.ActivityManager;
+import com.liangxingyishu.base.BaseFragment;
+import com.liangxingyishu.home.HomeActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
-import coder.mylibrary.base.ActivityManager;
-import coder.mylibrary.base.BaseFragment;
-import coder.prettygirls.R;
-import com.liangxingyishu.home.HomeActivity;
 
 
 public class SplashFragment extends BaseFragment implements SplashContract.View {

@@ -9,12 +9,13 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
 
+import com.liangxingyishu.R;
+import com.liangxingyishu.base.AppActivity;
+import com.liangxingyishu.base.BaseFragment;
+import com.liangxingyishu.util.ColorUtil;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import coder.mylibrary.base.AppActivity;
-import coder.mylibrary.base.BaseFragment;
-import coder.prettygirls.R;
-import com.liangxingyishu.util.ColorUtil;
 
 
 public class GirlActivity extends AppActivity implements GirlFragment.OnGirlChange {

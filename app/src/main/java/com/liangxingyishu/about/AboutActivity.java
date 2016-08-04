@@ -7,13 +7,13 @@ import android.view.View;
 import android.widget.ImageView;
 
 import com.bumptech.glide.Glide;
+import com.liangxingyishu.R;
 import com.liangxingyishu.app.MyApplication;
+import com.liangxingyishu.base.BaseFragment;
+import com.liangxingyishu.base.GestureActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import coder.mylibrary.base.BaseFragment;
-import coder.mylibrary.base.GestureActivity;
-import coder.prettygirls.R;
 import jp.wasabeef.glide.transformations.BlurTransformation;
 
 

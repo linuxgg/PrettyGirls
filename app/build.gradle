@@ -17,14 +17,43 @@ android {
         }
     }
     productFlavors {
-
+        waps {}
+        QQ {}
+        google {}
+//        3G {}
+//        91 {}
+//        360 {}
+        hiapk {}
+        baidu {}
+        gfan {}
+        sohu {}
+        goapk {}
+//        163 {}
+        appChina {}
+        UC {}
+        mumayi {}
+        dangle {}
+        eoe {}
+        samsung {}
+        nduo {}
+        mmw {}
+        feiliu {}
+        xiaomi {}
+        crossmo {}
+        lenovo {}
+        huawei {}
+        nearme {}
         wandoujia {}
         baidu {}
         c360 {}
         uc {}
-        productFlavors.all { flavor ->
-            flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+        productFlavors.findAll() { flavor ->
+            flavor.manifestPlaceholders = [APP_PID_VALUE: name]
         }
+//        productFlavors.all { flavor ->
+//            flavor.manifestPlaceholders = [UMENG_CHANNEL_VALUE: name]
+//        }
+
 
     }
 

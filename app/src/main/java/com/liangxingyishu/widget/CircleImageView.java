@@ -16,7 +16,7 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
-import coder.prettygirls.R;
+import com.liangxingyishu.R;
 
 
 /**

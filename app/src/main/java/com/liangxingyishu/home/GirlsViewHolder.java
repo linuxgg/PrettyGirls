@@ -6,8 +6,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.engine.DiskCacheStrategy;
 import com.jude.easyrecyclerview.adapter.BaseViewHolder;
-
-import coder.prettygirls.R;
+import com.liangxingyishu.R;
 import com.liangxingyishu.data.bean.GirlsBean;
 
 /**

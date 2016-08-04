@@ -2,9 +2,10 @@ package com.liangxingyishu.splash;
 
 import android.view.View;
 
-import coder.mylibrary.base.AppActivity;
-import coder.mylibrary.base.BaseFragment;
-import coder.prettygirls.R;
+import com.liangxingyishu.R;
+
+import com.liangxingyishu.base.AppActivity;
+import com.liangxingyishu.base.BaseFragment;
 
 public class SplashActivity extends AppActivity {
 

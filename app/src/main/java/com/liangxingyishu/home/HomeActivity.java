@@ -11,14 +11,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.liangxingyishu.R;
 import com.liangxingyishu.about.AboutActivity;
+import com.liangxingyishu.base.AppActivity;
+import com.liangxingyishu.base.BaseFragment;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
-import coder.mylibrary.base.AppActivity;
-import coder.mylibrary.base.BaseFragment;
-import coder.prettygirls.R;
 
 public class HomeActivity extends AppActivity {
 

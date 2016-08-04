@@ -15,7 +15,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
+import com.liangxingyishu.R;
 import com.liangxingyishu.app.Constants;
+import com.liangxingyishu.base.BaseFragment;
 import com.liangxingyishu.data.bean.GirlsBean;
 import com.liangxingyishu.util.BitmapUtil;
 import com.liangxingyishu.widget.PinchImageView;
@@ -26,8 +28,6 @@ import java.util.ArrayList;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
-import coder.mylibrary.base.BaseFragment;
-import coder.prettygirls.R;
 import rx.Observable;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action1;
