@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.view.KeyEvent;
 import android.widget.Toast;
 
+import coder.prettygirls.R;
+
 /**
  * 双击退出
  */
@@ -17,7 +19,7 @@ public class ExitActivityUtil extends Activity {
         if (keyCode == KeyEvent.KEYCODE_BACK && event.getAction() == KeyEvent.ACTION_DOWN) {
             //两秒之内按返回键就会退出
             if ((System.currentTimeMillis() - exitTime) > 2000) {
-                Toast.makeText(getApplicationContext(), "再按一次退出程序", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), getString(R.string.quit_app), Toast.LENGTH_SHORT).show();
                 exitTime = System.currentTimeMillis();
             } else {
                 finish();

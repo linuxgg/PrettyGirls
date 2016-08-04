@@ -11,13 +11,14 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.liangxingyishu.about.AboutActivity;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 import coder.mylibrary.base.AppActivity;
 import coder.mylibrary.base.BaseFragment;
 import coder.prettygirls.R;
-import com.liangxingyishu.about.AboutActivity;
 
 public class HomeActivity extends AppActivity {
 
@@ -55,10 +56,9 @@ public class HomeActivity extends AppActivity {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.fab:
-                // 必须明确使用mailto前缀来修饰邮件地址,如果使用
-                Uri uri = Uri.parse("mailto:18231195685@sina.cn");
+                Uri uri = Uri.parse("mailto:givememoregirls@chedan.com");
                 Intent intent = new Intent(Intent.ACTION_SENDTO, uri);
-                startActivity(Intent.createChooser(intent, "请选择邮件类应用"));
+                startActivity(Intent.createChooser(intent, getString(R.string.choose_email_type)));
                 break;
         }
     }
@@ -92,7 +92,7 @@ public class HomeActivity extends AppActivity {
         if (keyCode == KeyEvent.KEYCODE_BACK && event.getAction() == KeyEvent.ACTION_DOWN) {
             //两秒之内按返回键就会退出
             if ((System.currentTimeMillis() - exitTime) > 2000) {
-                Snackbar.make(mFab, "再按一次退出程序哦~", Snackbar.LENGTH_LONG).show();
+                Snackbar.make(mFab, R.string.quit_app, Snackbar.LENGTH_LONG).show();
                 exitTime = System.currentTimeMillis();
             } else {
                 finish();
